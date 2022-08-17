@@ -165,18 +165,21 @@ header {
   width: 300px;
   height: 360px;
   background: url(../img/deer.jpg);
+  border: 5px solid white;
 }
 
 .latest-articles__card-squirrel {
   width: 300px;
   height: 360px;
   background: url(../img/squirrel.jpg);
+  border: 5px solid white;
 }
 
 .latest-articles__card-bird {
   width: 300px;
   height: 360px;
   background: url(../img/bird.jpg);
+  border: 5px solid white;
 }
 
 .latest-articles__card-articles__title {
