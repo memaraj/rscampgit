@@ -279,3 +279,9 @@ header {
 a:hover {
   color: #666666;
 }
+
+.footer-nav__link:hover{
+  color: #CD6326;
+}
+
+
