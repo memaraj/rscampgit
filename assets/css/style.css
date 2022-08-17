@@ -283,3 +283,19 @@ header {
 a:hover {
   color: #666666;
 }
+
+
+.social-links__list{
+  text-align: center;
+  display: flex;
+}
+.social-links__element{
+  padding: 5px;
+}
+
+.footer-nav__link:hover{
+  color: #CD6326;
+}
+
+
+
