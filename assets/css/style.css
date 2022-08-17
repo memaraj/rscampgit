@@ -80,6 +80,10 @@ header {
   background: #CD6326;
 }
 
+.header__item a:hover {
+  color:#3D6541
+}
+
 .header__item:last-child:active {
   background: #8F5613;
 }
@@ -113,7 +117,7 @@ header {
 
 .survival__button {
   padding: 16px 42px;
-  background: #3d6541;
+  background: #CD6326;
   border-radius: 5px;
   font-family: Roboto;
   font-size: 23px;
@@ -277,5 +281,5 @@ header {
 }
 
 a:hover {
-  color: #3D6541;
+  color: #666666;
 }
