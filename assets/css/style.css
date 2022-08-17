@@ -113,7 +113,7 @@ header {
 
 .survival__button {
   padding: 16px 42px;
-  background: #CD6326;
+  background: #3d6541;
   border-radius: 5px;
   font-family: Roboto;
   font-size: 23px;
@@ -277,8 +277,9 @@ header {
 }
 
 a:hover {
-  color: #666666;
+  color: #3D6541;
 }
+
 
 .social-links__list{
   text-align: center;
@@ -287,3 +288,10 @@ a:hover {
 .social-links__element{
   padding: 5px;
 }
+
+.footer-nav__link:hover{
+  color: #CD6326;
+}
+
+
+
