@@ -204,7 +204,6 @@ header {
   padding-bottom: 59px;
 }
 
-<<<<<<< HEAD
 .contactform_block{
   display: flex;
   flex-direction: column;
@@ -221,7 +220,6 @@ header {
   padding: 1rem 10px ;
   margin-bottom: 10px;
 }
-=======
 .email-newsletter {
   background: url(../img/newsletter.jpg);
   background-size: cover;
@@ -233,7 +231,6 @@ header {
   flex-wrap: wrap;
 }
 
->>>>>>> 1a7e199de875281db88e001777ea29c74db3139a
 .mailform {
   padding-left: 389px;
 }
