@@ -98,10 +98,11 @@ header {
 .survival {
   min-height: 100vh;
   padding-top: 199px;
+  font-weight: bold;
 }
 
 .survival__title {
-  font-size: 48px;
+  font-size: 80px;
   line-height: 72px;
   letter-spacing: 2px;
   color: #CD6326;
@@ -110,7 +111,7 @@ header {
 
 .survival__subtitle {
   max-width: 274px;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 27px;
   margin-bottom: 49px;
 }
@@ -298,11 +299,4 @@ a:hover {
 
 .footer-nav__link:hover{
   color: #CD6326;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
->>>>>>> 7c3a9900b8575bf15f4b2f5b86a40a0c45c75512
