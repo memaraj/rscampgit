@@ -95,7 +95,7 @@ header {
   text-decoration: none;
 }
 
-.survival {
+.survival, .contact {
   min-height: 100vh;
   padding-top: 199px;
   font-weight: bold;
@@ -208,6 +208,22 @@ header {
   padding-bottom: 59px;
 }
 
+.contactform_block{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 239px;
+  width: 500px;
+  margin: auto;
+}
+.contactform_field, .contactform_textarea{
+  font-size: 23px;
+  border: 1px solid #666;
+  background-color: transparent;
+  color: #666;
+  border-radius: 5px 5px 5px 5px;
+  padding: 1rem 10px ;
+  margin-bottom: 10px;
+}
 .email-newsletter {
   background: url(../img/newsletter.jpg);
   background-size: cover;
@@ -300,7 +316,6 @@ header {
 a:hover {
   color: #666666;
 }
-
 
 .social-links__list{
   text-align: center;
