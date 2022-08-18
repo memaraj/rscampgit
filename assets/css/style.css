@@ -98,10 +98,11 @@ header {
 .survival {
   min-height: 100vh;
   padding-top: 199px;
+  font-weight: bold;
 }
 
 .survival__title {
-  font-size: 48px;
+  font-size: 80px;
   line-height: 72px;
   letter-spacing: 2px;
   color: #CD6326;
@@ -110,7 +111,7 @@ header {
 
 .survival__subtitle {
   max-width: 274px;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 27px;
   margin-bottom: 49px;
 }
@@ -263,8 +264,8 @@ header {
 
 .footer__logo-nav {
   flex-grow: 50%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .footer__logo-pic {
@@ -276,8 +277,8 @@ header {
 
 .footer__logo-text {
   font-family: Roboto;
-  font-size: 32px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 45px;
   text-transform: uppercase;
 }
 
@@ -286,8 +287,8 @@ header {
 }
 
 .footer-nav__link {
-  font-size: 23px;
-  line-height: 60px;
+  font-size: 18px;
+  line-height: 45px;
   color: #F7F7F7;
   text-decoration: none;
 }
@@ -307,11 +308,4 @@ a:hover {
 
 .footer-nav__link:hover{
   color: #CD6326;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
->>>>>>> 7c3a9900b8575bf15f4b2f5b86a40a0c45c75512
