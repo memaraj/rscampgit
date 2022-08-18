@@ -95,7 +95,7 @@ header {
   text-decoration: none;
 }
 
-.survival {
+.survival, .contact {
   min-height: 100vh;
   padding-top: 199px;
 }
@@ -138,6 +138,7 @@ header {
 /* Latest articles */
 
 .latest-articles {
+  border-top: 1px solid #ffffff;;
   background-color: #CCCCCC;
 }
 
@@ -201,6 +202,22 @@ header {
   padding-bottom: 59px;
 }
 
+.contactform_block{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 239px;
+  width: 500px;
+  margin: auto;
+}
+.contactform_field, .contactform_textarea{
+  font-size: 23px;
+  border: 1px solid #666;
+  background-color: transparent;
+  color: #666;
+  border-radius: 5px 5px 5px 5px;
+  padding: 1rem 10px ;
+  margin-bottom: 10px;
+}
 .mailform {
   padding-left: 389px;
 }
@@ -284,7 +301,6 @@ a:hover {
   color: #666666;
 }
 
-
 .social-links__list{
   text-align: center;
   display: flex;
@@ -295,11 +311,4 @@ a:hover {
 
 .footer-nav__link:hover{
   color: #CD6326;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
->>>>>>> 7c3a9900b8575bf15f4b2f5b86a40a0c45c75512
