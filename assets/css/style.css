@@ -207,11 +207,15 @@ header {
   text-align: center;
 }
 
-.latest-articles__text {
+.email-newsletter__text {
   text-align: center;
-  font-size: 27px;
+  font-size: 30px;
   line-height: 40px;
   padding-bottom: 59px;
+  text-shadow: -1px 1px 20px #000,
+                1px 1px 20px #000,
+                1px -1px 20px #000,
+               -1px -1px 20px #000;
 }
 
 .contactform_block{
