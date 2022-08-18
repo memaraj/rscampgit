@@ -20,6 +20,13 @@ body {
   margin: 0 auto;
 }
 
+.wrapper-cv {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .header__section {
   display: flex;
   flex-direction: column;
