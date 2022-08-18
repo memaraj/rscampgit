@@ -20,11 +20,13 @@ body {
   margin: 0 auto;
 }
 
+
 .header__section {
-  display: flex;
-  flex-direction: column;
-  background-color: #02160B;
-  background: url(../img/smiling-fox.jpg) no-repeat center;
+  background-image: url(../img/smiling-fox.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
