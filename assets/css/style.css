@@ -142,6 +142,12 @@ header {
   background-color: #CCCCCC;
 }
 
+.article-background {
+  background-color: #a9ba9d;
+  height: 100vh;
+  padding-top:10%;
+}
+
 .latest-articles__title {
   padding-top: 120px; /* костыли с отступами?? */
   font-size: 48px;
