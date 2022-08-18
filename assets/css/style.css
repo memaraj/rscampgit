@@ -20,6 +20,12 @@ body {
   margin: 0 auto;
 }
 
+.wrapper-cv {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 .header__section {
   background-image: url(../img/smiling-fox.jpg);
@@ -97,7 +103,7 @@ header {
   text-decoration: none;
 }
 
-.survival, .contact {
+.survival {
   min-height: 100vh;
   padding-top: 199px;
   font-weight: bold;
@@ -144,12 +150,6 @@ header {
   background-color: #CCCCCC;
 }
 
-.article-background {
-  background-color: #a9ba9d;
-  height: 100vh;
-  padding-top:10%;
-}
-
 .latest-articles__title {
   padding-top: 120px; /* костыли с отступами?? */
   font-size: 48px;
@@ -176,26 +176,22 @@ header {
 
 .latest-articles__card-deer { /* Вот так и появляется говнокод */
   width: 300px;
-  height: 500px;
+  height: 360px;
   background: url(../img/deer.jpg);
-  background-size: cover;
   border: 5px solid white;
-  
 }
 
 .latest-articles__card-squirrel {
   width: 300px;
-  height: 500px;
+  height: 360px;
   background: url(../img/squirrel.jpg);
-  background-size: cover;
   border: 5px solid white;
 }
 
 .latest-articles__card-bird {
   width: 300px;
-  height: 500px ;
+  height: 360px;
   background: url(../img/bird.jpg);
-  background-size: cover;
   border: 5px solid white;
 }
 
@@ -209,33 +205,13 @@ header {
   text-align: center;
 }
 
-.email-newsletter__text {
+.latest-articles__text {
   text-align: center;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 40px;
   padding-bottom: 59px;
-  text-shadow: -1px 1px 20px #000,
-                1px 1px 20px #000,
-                1px -1px 20px #000,
-               -1px -1px 20px #000;
 }
 
-.contactform_block{
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 239px;
-  width: 500px;
-  margin: auto;
-}
-.contactform_field, .contactform_textarea{
-  font-size: 23px;
-  border: 1px solid #666;
-  background-color: transparent;
-  color: #666;
-  border-radius: 5px 5px 5px 5px;
-  padding: 1rem 10px ;
-  margin-bottom: 10px;
-}
 .email-newsletter {
   background: url(../img/newsletter.jpg);
   background-size: cover;
@@ -286,7 +262,7 @@ header {
 }
 
 .footer {
-  background: #024b30  ;
+  background: url(../img/footer.jpg)
 }
 
 .footer__wrapper {
@@ -328,6 +304,7 @@ header {
 a:hover {
   color: #666666;
 }
+
 
 .social-links__list{
   text-align: center;
