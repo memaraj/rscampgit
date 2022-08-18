@@ -260,6 +260,8 @@ header {
 .footer__wrapper {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer__logo-nav {
@@ -269,10 +271,8 @@ header {
 }
 
 .footer__logo-pic {
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-right: 15px;
 }
 
 .footer__logo-text {
