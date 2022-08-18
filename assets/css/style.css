@@ -168,22 +168,26 @@ header {
 
 .latest-articles__card-deer { /* Вот так и появляется говнокод */
   width: 300px;
-  height: 360px;
+  height: 500px;
   background: url(../img/deer.jpg);
+  background-size: cover;
   border: 5px solid white;
+  
 }
 
 .latest-articles__card-squirrel {
   width: 300px;
-  height: 360px;
+  height: 500px;
   background: url(../img/squirrel.jpg);
+  background-size: cover;
   border: 5px solid white;
 }
 
 .latest-articles__card-bird {
   width: 300px;
-  height: 360px;
+  height: 500px ;
   background: url(../img/bird.jpg);
+  background-size: cover;
   border: 5px solid white;
 }
 
