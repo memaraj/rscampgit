@@ -150,6 +150,17 @@ header {
   background-color: #CCCCCC;
 }
 
+
+.article-background {
+  background-color: #a9ba9d;
+  height: 100vh;
+  padding-top:10%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .latest-articles__title {
   padding-top: 120px; /* костыли с отступами?? */
   font-size: 48px;
