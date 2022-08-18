@@ -201,10 +201,10 @@ header {
   text-align: center;
   font-size: 27px;
   line-height: 40px;
-  color: #333333;
   padding-bottom: 59px;
 }
 
+<<<<<<< HEAD
 .contactform_block{
   display: flex;
   flex-direction: column;
@@ -221,6 +221,19 @@ header {
   padding: 1rem 10px ;
   margin-bottom: 10px;
 }
+=======
+.email-newsletter {
+  background: url(../img/newsletter.jpg);
+  background-size: cover;
+  padding: 100px 0 0 0;
+}
+
+.email-newsletter__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+>>>>>>> 1a7e199de875281db88e001777ea29c74db3139a
 .mailform {
   padding-left: 389px;
 }
@@ -234,7 +247,6 @@ header {
 .mailform__field {
   font-size: 23px;
   border: 1px solid #666;
-  background-color: transparent;
   color: #666;
   border-radius: 5px 0px 0px 5px;
 }
